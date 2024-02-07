@@ -22,8 +22,15 @@ const Hearder = () => {
             <li>
               <Link href={"/About"}> About</Link>
             </li>
-            <li>LinkedIn</li>
-            <li>GitHub</li>
+            <li>
+              <Link href={"https://www.linkedin.com/in/dev-henrique-martins/"}>
+                {" "}
+                LinkedIn
+              </Link>
+            </li>
+            <li>
+              <Link href={"/GitHub"}> GitHub</Link>
+            </li>
           </ul>
         </nav>
       </GridContainer>

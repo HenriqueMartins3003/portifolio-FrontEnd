@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Epilogue } from "next/font/google";
+import { Epilogue, Gamja_Flower } from "next/font/google";
 import "./globals.css";
 import Hearder from "@/components/hearder";
 import Footer from "@/components/footer";
@@ -7,6 +7,10 @@ import Footer from "@/components/footer";
 const epilogue = Epilogue({
   subsets: ["latin"],
   weight: ["500", "600", "700"],
+});
+const gamjaFlower = Gamja_Flower({
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {

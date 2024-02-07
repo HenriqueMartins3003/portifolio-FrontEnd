@@ -12,6 +12,10 @@ const config: Config = {
         primaryGray: "#2F2F2F",
         secondGray: "#585858",
       },
+      fontFamily: {
+        gamja: ["Gamja Flower", "roboto"],
+        diphylleia: ["Diphylleia", "sans-serif"],
+      },
     },
   },
 };
